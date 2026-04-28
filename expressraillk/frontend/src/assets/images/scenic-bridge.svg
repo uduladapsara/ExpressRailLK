@@ -1,0 +1,23 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="24" fill="url(#paint0_linear)"/>
+  <path d="M60 250C140 180 260 150 360 150C460 150 580 180 660 250" stroke="#0C1B33" stroke-width="10" stroke-linecap="round"/>
+  <path d="M80 250V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M160 230V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M240 210V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M320 200V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400 200V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M480 210V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M560 230V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <path d="M640 250V300" stroke="#0C1B33" stroke-width="8" stroke-linecap="round"/>
+  <rect x="120" y="120" width="420" height="50" rx="20" fill="#C62828"/>
+  <rect x="140" y="132" width="70" height="26" rx="10" fill="#F7F3EE"/>
+  <rect x="230" y="132" width="70" height="26" rx="10" fill="#F7F3EE"/>
+  <rect x="320" y="132" width="70" height="26" rx="10" fill="#F7F3EE"/>
+  <rect x="410" y="132" width="70" height="26" rx="10" fill="#F7F3EE"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="80" y1="40" x2="620" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDF0E4"/>
+      <stop offset="1" stop-color="#F3CBA4"/>
+    </linearGradient>
+  </defs>
+</svg>
