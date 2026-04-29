@@ -3,6 +3,12 @@ const Payment = require("../models/Payment");
 const Booking = require("../models/Booking");
 
 const createStripePaymentIntent = async ({ booking, currency }) => {
+	if (!stripe) {
+		const error = new Error("Stripe is not configured");
+		error.statusCode = 503;
+		throw error;
+	}
+
 	const amount = Math.round(booking.totalPrice * 100);
 
 	const intent = await stripe.paymentIntents.create({

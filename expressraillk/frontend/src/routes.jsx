@@ -7,6 +7,10 @@ import Booking from "./pages/Booking";
 import Payment from "./pages/Payment";
 import Profile from "./pages/Profile";
 import Ticket from "./pages/Ticket";
+import AdminDashboard from "./pages/admin/Dashboard";
+import ManageBookings from "./pages/admin/ManageBookings";
+import ManageTrains from "./pages/admin/ManageTrains";
+import ManageStations from "./pages/admin/ManageStations";
 
 export const AppRoutes = () => {
 	return (
@@ -19,6 +23,10 @@ export const AppRoutes = () => {
 			<Route path="/payment" element={<Payment />} />
 			<Route path="/profile" element={<Profile />} />
 			<Route path="/ticket" element={<Ticket />} />
+			<Route path="/admin" element={<AdminDashboard />} />
+			<Route path="/admin/bookings" element={<ManageBookings />} />
+			<Route path="/admin/trains" element={<ManageTrains />} />
+			<Route path="/admin/stations" element={<ManageStations />} />
 		</Routes>
 	);
 };
